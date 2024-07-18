@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(156, 147, 147);
+    width: 10vw;
+    font-family: "Fira Sans", sans-serif;
+    padding: 10px;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 43px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+
+.sidebar nav li  a{
+    text-decoration: none;
+    color: rgb(0, 6, 18);
+}
+.main {
+    background-color: yellow;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+
+}
+
+.infocontainer {
+    /* background-color: rgb(237, 108, 114); */
+    height: 65vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Roboto Mono", monospace;
+}
+.hello{
+    font-size: 85px;
+}
+.name{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: "Fira Sans", sans-serif;
+}
+.about{
+    font-size: 30px;
+}
+
+.buttons{
+
+    margin-top: 25px;
+}
+.buttons button{
+    border-radius: 44px;
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+    background-color: blueviolet;
+    cursor: pointer;
+
+}
+.btn{
+    color: blue;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: blue;
+}
+
+.devpic img{
+    height: 65vh;
+}
+.moreabout{
+    font-size: 15px;
+    /* font-family: "Roboto Mono", monospace; */
+}
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: "Fira Sans", sans-serif;
+
+}
+.contactform h1{
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    padding: 12px 0;
+
+}
+.contactform form div{
+    padding: 10px 0 ;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    /* width: 20vw; */
+    border-radius: 4px;
+    font-size: 15px;
+    margin: 7px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: darkred;
+    font-size: 10px;
+    
+}
+#form-check{
+    display: inline;
+
+    flex-direction: row;
+
+}
+#form-check-input{
+    height: 13px;
+    width: 20px;
+    margin: 6px 0;
+}
+
+
+.form-control{
+    width: 350px;
+}
+.projectitem{
+    font-family: "Fira Sans", sans-serif;
+    margin: 20px;
+
+}
+ h1{
+    font-family: "Fira Sans", sans-serif;
+
+}
+    
+p{
+    font-family: "Roboto Mono", monospace;
+    
+
+}
+
+.skillcontainer{
+    padding: 12px;
+
+}
+
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-family: "Roboto Mono", monospace;
+}
+
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundred{
+    width: 265px;
+    background-color: blueviolet;
+}
+.seventyfive{
+    width :140px;
+    background-color: brown;
+}
+
+
+.fifty{
+    width: 125px;
+    background-color: aquamarine;
+
+}
+
+.t5{
+    width: 75px;
+    background-color: rgb(198, 125, 23);
+}
+
+.cv img{
+    height: 100vh;
+}
+
+.cvcontainer{
+    display: flex;
+    justify-content: center;
+}
